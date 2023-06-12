@@ -1,8 +1,27 @@
-#Title: Registration Number and Serial Number Sender using UDP
+##Title: RPC Calculator - C Implementation with Networking
 
 Description:
-This project demonstrates a simple client-server application that sends registration number and serial number data to a server using UDP (User Datagram Protocol) and waits for a response from the server.
+This project demonstrates the implementation of a Remote Procedure Call (RPC) system in C, showcasing a simple calculator application. It utilizes the RPC framework to enable communication between a client and a server, allowing remote function invocation. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-The client program prompts the user to enter a registration number and a serial number. It then sends this data to the server using UDP sockets. The server receives the data, performs any necessary operations, and sends a response back to the client.
+Features:
 
-This project showcases the basic usage of UDP for communication between a client and server, as well as how to handle data transmission and reception. It can serve as a starting point for building more complex client-server applications using UDP.
+    RPC implementation using C language
+    Client-Server architecture for remote function invocation
+    Calculator functionality with support for arithmetic operations
+    Robust error handling and input validation
+
+Technologies Used:
+
+    C programming language
+    RPC (Remote Procedure Call)
+    Networking using sockets
+
+Instructions:
+
+    Clone the repository and navigate to the project directory.
+    Build the server using the provided Makefile: make server
+    Start the server: ./server
+    Build the client using the Makefile: make client
+    Run the client: ./client
+
+Feel free to explore the code, experiment with different inputs, and expand the functionality as per your requirements. Enjoy learning about RPC and networking with this project!
